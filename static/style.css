@@ -1,0 +1,29 @@
+.belay {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 5rem;
+}
+
+.channelNav {
+  flex: 25%;
+}
+
+.messageList {
+  flex: 75%;
+}
+
+.replyThread {
+  flex: 25%;
+}
+
+.menuButtons {
+  display: none;
+}
+
+@media (max-width: 750px) {
+  .menuButtons {
+    display: flex;
+    flex-direction: row;
+  }
+}
